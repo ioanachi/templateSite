@@ -1,0 +1,33 @@
+.tabsContainer {
+    padding: 0px;
+    height: 41px;
+    margin: 0px;
+    display: flex;
+    margin-left: 1px;
+    div {
+        height: 100%;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 0.5px solid black;
+        border-bottom: 2px solid transparent;
+        &:hover {
+            border-bottom: 2px solid red;
+            background-color: rgb(47, 47, 47);
+            cursor: pointer;
+        }
+        p {
+            text-transform: uppercase;
+            margin: 0px;
+            font-size: 10px;
+            letter-spacing: -1px;
+            line-height: 1.6;
+            color: rgb(167, 167, 167);
+            font-family: Roboto;
+        }
+        &:last-child {
+            border-right: 0.5px solid black;
+        }
+    }
+}
