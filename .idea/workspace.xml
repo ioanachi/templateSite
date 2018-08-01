@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba7a78a-6154-4ea6-bc99-0cd63ebb9b6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Header/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/SubHeader/Upcoming1/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/SubHeader/Upcoming1/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/App/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/App/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Menu/MenuFilters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/Menu/MenuFilters/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Menu/MenuFilters/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/Menu/MenuFilters/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Menu/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/Sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/Sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/Sidebar/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/Sidebar/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,19 +29,19 @@
           <entry key="eslintrc" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="20" />
+          <entry key="js" value="21" />
           <entry key="json" value="2" />
           <entry key="png" value="1" />
-          <entry key="scss" value="7" />
+          <entry key="scss" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="20" />
+          <entry key="JavaScript" value="21" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="7" />
+          <entry key="SCSS" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -58,32 +52,21 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="13" />
-          <entry key="js" value="56" />
-          <entry key="scss" value="13" />
+          <entry key="js" value="76" />
+          <entry key="scss" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="56" />
+          <entry key="JavaScript" value="76" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="SCSS" value="13" />
+          <entry key="SCSS" value="21" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/SubHeader/Upcoming1/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/SubHeader/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/containers/Projects/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
@@ -143,6 +126,27 @@
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/containers/Sidebar/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/containers/Sidebar/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -161,15 +165,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/SubHeader/Upcoming1/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -201,6 +196,8 @@
         <option value="$PROJECT_DIR$/app/containers/Menu/MenuFilters/style.scss" />
         <option value="$PROJECT_DIR$/app/containers/Menu/MenuFilters/index.js" />
         <option value="$PROJECT_DIR$/app/containers/Projects/index.js" />
+        <option value="$PROJECT_DIR$/app/containers/Sidebar/style.scss" />
+        <option value="$PROJECT_DIR$/app/containers/Sidebar/index.js" />
       </list>
     </option>
   </component>
@@ -254,21 +251,6 @@
               <item name="templateSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="templateSite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SubHeader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="templateSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="templateSite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SubHeader" type="462c0819:PsiDirectoryNode" />
-              <item name="Upcoming1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="templateSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="templateSite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,7 +280,7 @@
               <item name="templateSite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="Sidebar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,12 +332,12 @@
       <workItem from="1533121957876" duration="194000" />
       <workItem from="1533124285178" duration="187000" />
       <workItem from="1533124510288" duration="3951000" />
-      <workItem from="1533130343282" duration="1298000" />
+      <workItem from="1533130343282" duration="1719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5630000" />
+    <option name="totallyTimeSpent" value="6051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,6 +591,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Sidebar/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/Sidebar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
