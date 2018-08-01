@@ -8,26 +8,16 @@ const MenuFilters = () => (
       <div className={styles.sortBtn}>
         <p>Sort</p>
       </div>
-      <Link className={styles.newL} to="/sort/newest">
-        Newest
-      </Link>
-      <Link className={styles.newL} to="/sort/oldest">
-        Oldest
-      </Link>
+      <Link to="/sort/newest">Newest</Link>
+      <Link to="/sort/oldest">Oldest</Link>
     </div>
     <div className={styles.filtering}>
       <div className={styles.filterBtn}>
         <p>Filter</p>
       </div>
-      <Link className={styles.newL} to="/sort/newest">
-        All
-      </Link>
-      <Link className={styles.newL} to="/sort/oldest">
-        Ready to review
-      </Link>
-      <Link className={styles.newL} to="/sort/oldest">
-        Reviewed
-      </Link>
+      <Link to="/sort/newest">All</Link>
+      <Link to="/sort/oldest">Ready to review</Link>
+      <Link to="/sort/oldest">Reviewed</Link>
     </div>
   </div>
 );
