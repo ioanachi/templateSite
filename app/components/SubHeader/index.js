@@ -1,15 +1,13 @@
-import * as React from 'react';
-import styles from './styles.scss';
-import Upcoming1 from './Upcoming1';
+import {connect } from 'react-redux';
+import SubHeader from './SubHeader';
 
-const SubHeader = () => (
-  <div className={`row ${styles.containerImg}`}>
-    <div className={`col-sm-6, ${styles.upContainer}`}>
-      <Upcoming1 />
-    </div>
-    <div className={`col-sm-6, ${styles.upContainer}`}>
-      <Upcoming1 />
-    </div>
-  </div>
-);
-export default SubHeader;
+
+const mapStateToProps = state => ({
+  changeDisplayProperty: state.changeDisplay.changeDisplayProp,
+});
+
+export default connect(mapStateToProps,
+  null,
+  null,
+  { pure: false }
+)(SubHeader);

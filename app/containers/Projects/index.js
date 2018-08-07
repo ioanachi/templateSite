@@ -3,15 +3,12 @@ import styles from './style.scss';
 import pic2 from '../../img/headerimg.png';
 
 const Projects = props => {
-  const postReason = props.reason ? <div className={styles.reason}>{props.reason}</div> : null;
-  const checkIcon = props.icon ? (
-    <i style={{ color: '#09ac41', marginRight: '5px' }} className={props.icon}>
-      {' '}
-    </i>
-  ) : null;
-  const thumbnail = props.thumbnail ? (
-    <div className={styles.thumbnail}>
-      <img src={props.thumbnail} alt="project" />
+  const { thumbnailImg, reason, icon, status, title } = props;
+  const postReason = reason ? <div className={styles.reason}>{reason}</div> : null;
+  const checkIcon = icon ? <i style={{ color: '#09ac41', marginRight: '5px' }} className={icon} /> : null;
+  const thumbnail = thumbnailImg ? (
+    <div className={styles.thumbnailS}>
+      <img src={thumbnailImg} alt="project" />
       <i className="fa fa-play-circle" style={{ color: 'black', backgroundColor: 'white' }} />
     </div>
   ) : (
@@ -25,17 +22,17 @@ const Projects = props => {
     <div className={styles.projectsContainer}>
       <div className={styles.title}>
         <p>
-          <b>Project</b>: {props.title}
+          <b>Project</b>: {title}
         </p>
         <div style={{ color: props.color }}>
-          {checkIcon} {props.status}
+          {checkIcon} {status}
         </div>
       </div>
       <div className={styles.secondContainer}>
         {thumbnail}
         <div className={styles.authorName}>
           <p>
-            <img className={styles.imageProfile} src={pic2} />
+            <img className={styles.imageProfile} alt="profile" src={pic2} />
             John Marshall
           </p>
           <p>November 30 at </p>

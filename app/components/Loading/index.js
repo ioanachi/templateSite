@@ -10,7 +10,7 @@ const Loading = () => (
       <li className={s.subheaderRight} />
       <li className={s.subheaderBottom} />
       <li className={s.contentTop} />
-      <li className={s.contentFirstEnd} />edcewcwecwe
+      <li className={s.contentFirstEnd} />
       <li className={s.contentSecondLine} />
       <li className={s.contentSecondEnd} />
       <li className={s.contentThirdLine} />

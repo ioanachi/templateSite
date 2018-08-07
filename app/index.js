@@ -9,11 +9,9 @@ import store from 'store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-
 const renderApp = Component => {
   ReactDOM.render(
     <Provider store={store}>
-
       <Router>
         <AppContainer>
           <Component />
