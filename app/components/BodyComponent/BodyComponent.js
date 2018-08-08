@@ -7,9 +7,8 @@ import photo from '../../img/largeimg.jpg';
 import pic1 from '../../img/thumbnail.png';
 
 const BodyComponent = props => {
-  const { changeDisplayProperty } = props;
   return (
-    <div className={`row ${styles.bodyComp}`} style={changeDisplayProperty === true ? { marginLeft: '100px', transition: 'all 0.3s ease' } : { marginLeft: '0' }}>
+    <div className={`row ${styles.bodyComp}`}>
       <div className="col-sm-12 ">
         <div className="col-sm-9">
           <Menu />

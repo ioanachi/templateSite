@@ -1,7 +1,6 @@
-import React, { PureComponent, Component } from 'react';
+import React, { PureComponent } from 'react';
 import styles from './style.scss';
 import pic from '../../img/headerimg.png';
-import logo from '../../img/image.png';
 
 class Header extends PureComponent {
   constructor(props) {
@@ -16,8 +15,7 @@ class Header extends PureComponent {
 
   render() {
     return (
-      <div className="row" style={ this.props.changeDisplayProperty === true ? { marginLeft: '170px', transition: 'all 0.3s ease' } : { marginLeft: '0' }}>
-        <div>{this.props.cevaProperty}</div>
+      <div className="row">
         <div className={`${styles.headerContainer} col-sm-12`}>
           <div className={styles.menuContainer}>
             <i
