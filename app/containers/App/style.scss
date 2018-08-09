@@ -10,12 +10,17 @@ main {
   .closed{
     transition: all .8s ease;
     margin-left: 0;
+    //z-index: 100000;
   }
   .open{
     margin-left: 170px;
+    background-color: rgb(42, 42, 42);
     transition: all .8s ease;
-    z-index: 2;
+    //z-index: 100000;
+
   }
 
-
+.container {
+  position:relative;
+}
 }

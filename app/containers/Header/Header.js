@@ -26,7 +26,6 @@ class Header extends PureComponent {
             />
           </div>
 
-
           <div className={styles.headerSecond}>
             <div className={styles.userPhoto}>
               <img src={pic} alt="user" />

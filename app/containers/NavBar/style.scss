@@ -8,29 +8,24 @@
   }
 }
 
-.hidden {
-  //width: 0;
-  //overflow: hidden;
-  position: absolute;
-  //margin:0;
-  z-index: -1;
-  padding-top: 20px;
+//.hidden {
+//  width: 0;
+//  overflow-x: hidden;
+//  z-index: 1;
+//  float: left;
+//  top: 0;
+//  left: 0;
+//  height: 100%;
+//  padding-top: 0;
+//  position: fixed;
+//  transition: .5s;
+//}
 
-  //transition:all 3s  ease ;
-
-}
-.showing{
-  color:white;
-  float: left;
+.showing {
+  color: white;
   position: absolute;
-  z-index: 3;
+  top: 0;
   padding-top: 20px;
-  //background-color: #2a2a2a;
-  //margin: 0 20px 0 0;
-  //width: 160px;
-  //overflow: hidden;
-  transition:all 1.9s  ease ;
 }
-.showing div{
-  transition: none;
-}
+
+
